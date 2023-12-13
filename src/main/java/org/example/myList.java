@@ -3,7 +3,7 @@ package org.example;
 import java.util.Iterator;
 import java.util.Spliterator;
 import java.util.function.Consumer;
-
+//task1
 public class myList<T> implements Iterable<T> {
     private class Iterator<T> implements java.util.Iterator<T> {
         private int index = 0;
